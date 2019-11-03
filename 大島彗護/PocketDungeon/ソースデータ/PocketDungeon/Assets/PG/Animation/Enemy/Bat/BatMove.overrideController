@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BatMove
+  m_Controller: {fileID: 9100000, guid: 7cedb14be709c084192df3e2a4106355, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: efe25f0f51549234ebd039b878d6b679, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fa2e670bb2c9e477c808334791c8a4c4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 02a06d96ebbb3cd4abf15b426017a6a2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 32a3ce443628740e4a364a7fc3cee3de, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: dc51018d1ed8e44459ed98346abd652d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 54d2805758491ab498c0179c765affc0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 14c5006932e565240a40f59f231323ce, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bc8b33e00f6ddb74e9622e8db050a48d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 020ff6246c073d344b221de466141bc8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8b53903340d86a14fa55abf79a0e888d, type: 2}
