@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Stone
+  - Iron
+  - Water
+  - Tree
+  - Iron_Thunder
+  - key
+  - Enemy
+  - OptionButton
+  - Limit_Block
+  - IceBall
+  - ThunderBall
+  - FireBall
+  - Block
+  - Thorn
+  - Fire
+  - BlockCreatePossibleNum
+  - Wand
+  - DebugTrigger
+  - MageShot
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - butu
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: butu
+    uniqueID: 3270541755
+    locked: 0
+  - name: 
+    uniqueID: 2369047201
+    locked: 0
