@@ -9,7 +9,6 @@ skip( false ),
 finish( false ),
 num_col( true ),
 num_row( true ),
-noblock( 0 ),
 score( 0 ),
 rand_col( 0 ),
 rand_row( 0 ),
@@ -275,15 +274,14 @@ void Game::Action( ) {
 }
 
 void Game::GameInit( ) {
-	ismove = true ;
-	skip = false ;
-	num_col = true ;
-	num_row = true ;
-	noblock = 0 ;
-	score = 0 ;
-	rand_col = 0 ;
-	rand_row = 0 ;
-	rand_num = 0 ;
+	ismove = true;
+	skip = false;
+	num_col = true;
+	num_row = true;
+	score = 0;
+	rand_col = 0;
+	rand_row = 0;
+	rand_num = 0;
 	first = 2; 
 
 	for ( int i = 0; i < SURFACE; i++ ) {

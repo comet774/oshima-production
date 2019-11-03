@@ -22,7 +22,7 @@ sub( 0 ),
 score( 0 ),
 highscore( 0 ),
 _game( new Game( ) ) {
-	str_size = CreateFontToHandle( NULL, 100,10 );
+	str_size = CreateFontToHandle( NULL, 100, 10 );
 	
 }
 
@@ -33,11 +33,11 @@ Draw::~Draw( ) {
 void Draw::update( Game *game ) {
 	score = game->getScore( );
 	
-	DrawBox( BACK_POS_X, BACK_POS_Y, BACK_POS_X + BACK_BOX, BACK_POS_Y + BACK_BOX, GetColor( 208,199, 159 ) , true );
+	DrawBox( BACK_POS_X, BACK_POS_Y, BACK_POS_X + BACK_BOX, BACK_POS_Y + BACK_BOX, GetColor( 208, 199, 159 ), true );
 	DrawString( 0, 0, "2048",BLACK );
 	DrawFormatString( BACK_POS_X, 50, BLACK,"スコア: %d", score );
 
-
+	//ブロックの表示処理
 	for ( int i = 0; i < 4; i++ ) {
 		for ( int j = 0; j < 4; j++ ) {
 			num_pos_col = BACK_POS_X + ( i + 1 ) * INTERVAL + i * NUM_BOX_SIZE;
@@ -56,22 +56,23 @@ void Draw::update( Game *game ) {
 
 		}
 	}
-
+	//ゲームオーバーの描画処理
 	if( game->getFinish( ) ) {
 		if( score > highscore ) {
 			highscore = score;
 		}
 
 		SetDrawBlendMode( DX_BLENDMODE_ADD, 128 );
-		DrawBox( 0, 0, 600,600, WHITE, true );
+		DrawBox( 0, 0, 600, 600, WHITE, true );
 		SetDrawBlendMode( DX_BLENDGRAPHTYPE_NORMAL, 0 );
 
-		DrawStringToHandle( 170, 170,"FINISH",BLACK,str_size );
+		DrawStringToHandle( 170, 170, "FINISH", BLACK, str_size );
 		DrawFormatString( 170, 300, BLACK, "ハイスコア: %d", highscore );
 		DrawString( 170, 320, "再挑戦　Enterキー", BLACK );
 	}
 }
 
+//ブロックの色の処理
 void Draw::color( ) {
 	int div = 0b1000;
 	while ( 1 ) {
