@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="CutIn.cpp" />
+    <ClCompile Include="Angle.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="ChangeScene.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GraphMusic.cpp" />
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Outset.cpp" />
+    <ClCompile Include="Timer.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Turret.cpp" />
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="Stamina.cpp" />
+    <ClCompile Include="Finish.cpp" />
+    <ClCompile Include="Result.cpp" />
+    <ClCompile Include="StaffRoll.cpp" />
+    <ClCompile Include="Discription.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CutIn.h" />
+    <ClInclude Include="Angle.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="ChangeScene.h" />
+    <ClInclude Include="Const.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GraphMusic.h" />
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Outset.h" />
+    <ClInclude Include="Timer.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Turret.h" />
+    <ClInclude Include="Ball.h" />
+    <ClInclude Include="Stamina.h" />
+    <ClInclude Include="Finish.h" />
+    <ClInclude Include="Result.h" />
+    <ClInclude Include="StaffRoll.h" />
+    <ClInclude Include="Discription.h" />
+  </ItemGroup>
+</Project>
