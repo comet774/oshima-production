@@ -14,7 +14,7 @@ public:
 	void update( Keyboard *key );
 
 private:
-	int flow;
+	int flow;	//ƒV[ƒ“ŠÇ—
 
 	Title *title;
 	Battle *battle;

@@ -30,16 +30,16 @@ private:
 private:
 	int flow;					//Œ»İ‚Ìƒtƒ[
 	int next_flow;				//Ÿ‚Ìƒtƒ[
-	int action;					//
+	int action;					//ƒvƒŒƒCƒ„[‚ÌƒAƒNƒVƒ‡ƒ“
 	int target;					//‘ÎÛ
 	int hierarchy;				//Œ»ŠK‘w
 	int hierarchy_max;			//Å‰º‘w
 	int interval;				//ŠÔŠu
 	int damage;					//ƒ_ƒ[ƒW
-	int attack_enemy_num;		//
-	int target_row;				//
+	int attack_enemy_num;		//UŒ‚‚·‚é“G‚Ì”Ô†
+	int target_row;				//UŒ‚‚·‚é“G‚ğ‘I‘ğ‚·‚é‚Ì•¶š‚Ì—ñ
 	int target_ad;				//target‚Ì’²®
-	int draw_enemy_num;			//
+	int draw_enemy_num;			//“G‚ğ•`‰æ‚µ‚½‰ñ”
 	int defeat_enemy;			//‚»‚ÌŠK‘w‚Å“|‚µ‚½“G‚Ì”
 	int defeat_enemy_num;		//“|‚µ‚½“G‚Ì”
 	int hiera_enemy;			//‚»‚ÌŠK‘w‚Ì“G‚Ì”
@@ -52,7 +52,7 @@ private:
 	bool isPushEnter;			//EnterƒL[‚ğ‰Ÿ‚µ‚½‚©
 	bool isPushBack;			//BackSpaceƒL[‚ğ‰Ÿ‚µ‚½‚©
 	bool firstMessege;			//“G‚ÌoŒ»‚ÌƒRƒƒ“ƒg•\¦
-	bool drawInit;				//
+	bool drawInit;				//“GoŒ»‚ÌÅ‰‚ÌƒƒbƒZ[ƒW‚Ì‚µ‚½‚©‚Ç‚¤‚©
 	struct playerdata _playerdata;
 
 	std::vector < struct enemydata > _enemydata;

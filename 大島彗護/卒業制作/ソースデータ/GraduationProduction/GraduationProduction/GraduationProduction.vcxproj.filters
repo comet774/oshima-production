@@ -2,10 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClInclude Include="Battle.h" />
-    <ClInclude Include="CharactorChoice.h" />
     <ClInclude Include="constfail.h" />
-    <ClInclude Include="EnemyAction.h" />
-    <ClInclude Include="EnemyAttack.h" />
     <ClInclude Include="GameClear.h" />
     <ClInclude Include="GameFlow.h" />
     <ClInclude Include="GameOver.h" />
@@ -15,9 +12,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Battle.cpp" />
-    <ClCompile Include="CharactorChoice.cpp" />
-    <ClCompile Include="EnemyAction.cpp" />
-    <ClCompile Include="EnemyAttack.cpp" />
     <ClCompile Include="GameClear.cpp" />
     <ClCompile Include="GameFlow.cpp" />
     <ClCompile Include="GameOver.cpp" />
