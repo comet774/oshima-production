@@ -105,16 +105,16 @@
     <Compile Include="Assets\PG\Scripts\SceneManagement.cs" />
     <Compile Include="Assets\Resources\Images\Player\Player_Goal.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/tesm5/OneDrive/デスクトップ/大島彗護/Pocket Dungeon/PocketDungeon/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/tesm5/github/testfile/oshima-production/大島彗護/PocketDungeon/ソースデータ/PocketDungeon/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/tesm5/OneDrive/デスクトップ/大島彗護/Pocket Dungeon/PocketDungeon/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/tesm5/github/testfile/oshima-production/大島彗護/PocketDungeon/ソースデータ/PocketDungeon/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/tesm5/OneDrive/デスクトップ/大島彗護/Pocket Dungeon/PocketDungeon/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/tesm5/github/testfile/oshima-production/大島彗護/PocketDungeon/ソースデータ/PocketDungeon/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/tesm5/OneDrive/デスクトップ/大島彗護/Pocket Dungeon/PocketDungeon/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/tesm5/github/testfile/oshima-production/大島彗護/PocketDungeon/ソースデータ/PocketDungeon/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
