@@ -19,6 +19,8 @@
  Switch
  GameCamera
 
+これらのスクリプトは「PocketDungeon」→「Assets」→「PG」→「Scripts」内のBlockフォルダ－、Cameraフォルダ－に入ってます。
+
 　このゲームを試遊するときは、「PocketDungeon」→「Assets」→「Scene」→「SceneManager」を開き、実行して試遊してください。
 
 ・遊び方
